@@ -3,6 +3,7 @@
 .env.*
 !.env.example
 *.pem
+!app/certs/*.pem
 *.key
 token.txt
 secrets.json
